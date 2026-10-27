@@ -1,5 +1,5 @@
 # FractalFlame Documentation
-This repository is a work in progress, but existing user docs can be found in `/usr` and developer docs can be found in `/dev`.
+This repository is a work in progress, but existing user docs can be found in `/usr` and developer docs can be found in `/dev`. Visit the deployed GitHub pages site [here](https://elkwizard.github.io/FractalFlameDocumentation/).
 
 ## End-User Docs
 * [What is FractalFlame?](/usr/what-is-fractalflame)

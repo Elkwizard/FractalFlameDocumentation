@@ -20,7 +20,7 @@ FractalFlame is designed to have a very simple interface. As such, some customiz
 > [!NOTE] These features are not present, but may be added in a future release of FractalFlame.
 
 ## Examples
-In the remainder of this page, the following images show examples of the fractal flames that can be achieved with various settings of Matrices and NLFs. Note that the following set of images is not even close to representative, and many entire categories of fractal flames are not shown here.
+In the remainder of this page, images show examples of the fractal flames that can be achieved with various settings of Matrices and NLFs. Note that the following set of images is not even close to representative, and many entire categories of fractal flames are not shown here.
 
 > [!NOTE] Even with identical settings, multiple vastly different flames can be achieved.
 

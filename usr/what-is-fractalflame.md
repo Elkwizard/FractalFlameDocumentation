@@ -12,7 +12,7 @@
 * Randomize the Weights, color palettes, and specific Matrices of the fractal, as a method of exploring the infinite possibility space.
 
 ## What You Can't Do With FractalFlame
-FractalFlame is designed to have a very simple interface. As such, some customizations are not possible, and one cannot:
+FractalFlame is designed to have a very simple interface. As such, some customizations are out of scope for the project, so one cannot:
 * Choose the specific Matrices used. Only the amount can be set and the Matrices can be randomized.
 * Choose the specific Weights used. Though every Matrix and NLF has a Weight, the only way to change them is through complete randomization or a general Weight for all Matrices.
 * Choose the specific color palette used. The same restrictions on Weight customization apply here.

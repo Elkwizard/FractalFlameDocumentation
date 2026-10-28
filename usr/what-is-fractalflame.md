@@ -33,7 +33,7 @@ As time passes, the system refines the image further and further in a process ca
 ## Examples
 In the remainder of this page, images show examples of the fractal flames that can be achieved with various settings of Matrices and NLFs. Note that the following set of images is not even close to representative, and many entire categories of fractal flames are not shown here.
 
-> [!NOTE] Even with identical settings, multiple vastly different flames can be achieved.
+> [!NOTE] Even with identical settings, multiple vastly different fractals can be achieved.
 
 ### 2 Matrices + "Julia" NLF
 ![a fractal flame reminiscient of lichen](../img/flame1.png)

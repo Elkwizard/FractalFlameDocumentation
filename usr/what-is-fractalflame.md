@@ -45,10 +45,13 @@ In the remainder of this page, images show examples of the fractal flames that c
 
 ### 3 Matrices + 0 NLFs
 ![a fractal flame reminiscient of a snowflake](../img/flame8.png)
-![a fractal flame reminiscient of a dragon](../img/flame9.png)
+![a fractal flame reminiscient of asteroids](../img/flame13.png)
+![a fractal flame reminiscient of a tornado](../img/flame14.png)
 
 ### 0 Matrices + "Waves" NLF
 ![a fractal flame reminiscient of a double helix](../img/flame10.png)
 
 ### 0 Matrices + "Waves" NLF + "Julia" NLF
 ![a fractal flame reminiscient of an alien city](../img/flame11.png)
+
+Want to see more of these? Try [FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html) yourself!

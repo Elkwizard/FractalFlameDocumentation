@@ -19,6 +19,17 @@ FractalFlame is designed to have a very simple interface. As such, some customiz
 
 > [!NOTE] These features are not present, but may be added in a future release of FractalFlame.
 
+## Lifecycle of a Fractal Flame
+Even once the system knows which NLFs and Matrices to use, it takes considerable computational power to produce an image of the fractal. However, to avoid the boredom of the wait, FractalFlame shows you intermediate versions of the image as it is computed. This causes it to appears blocky or grainy at first when given new settings.
+
+As time passes, the system refines the image further and further in a process called convergence. There is no well-defined final state for a fractal flame, which has two important consequences:
+1. It is merely a matter of personal choice when the image is "done," and it can be exported at any time.
+2. Any fractal flame can become sharper given more time (up to a theoretical limit of around 77 hours).
+
+> [!NOTE] If a fractal looks too fuzzy or indistinct, try giving it 10 or 20 more seconds. You may be surprised at the beauty underneath.
+
+> [!WARNING] Since changing settings requires the fractal image to be reset and reconverge, a well-converged fractal can easily be lost. Save fractals you enjoy early and often.
+
 ## Examples
 In the remainder of this page, images show examples of the fractal flames that can be achieved with various settings of Matrices and NLFs. Note that the following set of images is not even close to representative, and many entire categories of fractal flames are not shown here.
 

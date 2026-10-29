@@ -8,7 +8,7 @@ For information on how these concepts can be used in the FractalFlame interface,
 Fractal flames, the images created by [FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html), are records of a shockingly simple mathematical process called an iterated function system, or IFS. This is pretty much exactly what it sounds like. An iterated function system is a set of functions, and to visualize it, the functions are repeatedly applied to a set of points until the distribution of points converges. The distribution can then be made into an image by basing pixel brightness on the density of points in a given location, in a manner similar to a 2D histogram.
 
 ## Iterated Function Systems in Theory
-For the purposes of this documentation, an IFS is a set *F* of functions from points to points (*F* ⊆ ℝ² → ℝ²). To create the visualalization, or flame, or the system, we take a set of points *P₀* uniformly distributed in [-1,&nbsp;1]². To iterate the system, we use the following update rule:
+For the purposes of this documentation, an IFS is a set *F* of functions from points to points (*F* ⊆ ℝ² → ℝ²). To create the visualalization, or flame, or the system, we take a set of points *P₀* ⊆ *ℝ²* uniformly distributed in [-1,&nbsp;1]². To iterate the system, we use the following update rule:
 
 <center>
 

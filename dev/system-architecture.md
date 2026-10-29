@@ -15,8 +15,8 @@ FractalFlame's functionality is split into conceptually distinct files, which ar
 * `VectorMath.ts` and `MatrixMath.ts` define classes for use in linear algebra. `Vector2D` represents a point in ℝ², and `Matrix2D` represents a 3x2 affine transformation matrix.
 * `UI.ts` handles the majority of HTML event handling, with the notable exception of NLF parameter sliders.
 
-## Premise
-
+## Architecture
+> [!WARNING] FractalFlame is currently undergoing major internal reworkings. This section is delayed due to its impending irrelevance and will be added as soon as the dust settles.
 
 ## See Also
 * [Setting up FractalFlame Locally](./setting-up-fractalflame.md)

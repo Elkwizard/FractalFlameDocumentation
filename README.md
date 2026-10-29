@@ -1,6 +1,8 @@
 # FractalFlame Documentation
 This repository is a work in progress, but existing user docs can be found in `/usr` and developer docs can be found in `/dev`. Visit the deployed GitHub pages site [here](https://elkwizard.github.io/FractalFlameDocumentation/).
 
+For the software being documented, see the [GitHub](https://github.com/XenTempest/FractalFlame) and the [website](https://xentempest.github.io/FractalFlame/FractalFlame.html).
+
 ## End-User Docs
 * [What is FractalFlame?](./usr/what-is-fractalflame.md)
 * [What is a fractal flame?](./usr/what-is-a-fractal-flame.md)

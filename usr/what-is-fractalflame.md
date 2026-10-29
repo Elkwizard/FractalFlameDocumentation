@@ -1,10 +1,13 @@
-![a fractal flame reminiscient of a tunnel](../img/hero.png)
 
 # What is FractalFlame?
-[FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html) is an online tool for creating and customizing a type of [algorithmic art](https://en.wikipedia.org/wiki/Algorithmic_art) called [fractal flames](what-is-a-fractal-flame.md). With over 100 million options and a simplified interface, FractalFlame can be used to produce an endless stream of beautifully detailed images for use as screensavers, backgrounds, and profile pictures. Each fractal flame consists of four parts, which can each be customized/randomized separately:
+[FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html) is an online tool for creating and customizing a type of [algorithmic art](https://en.wikipedia.org/wiki/Algorithmic_art) called [fractal flames](what-is-a-fractal-flame.md). With over 100 million options and a simplified interface, FractalFlame can be used to produce an endless stream of beautifully detailed images for use as screensavers, backgrounds, and profile pictures. 
+
+![a fractal flame reminiscient of a tunnel](../img/hero.png)
+
+Each fractal flame consists of four parts, which can each be customized/randomized separately:
 
 1. **Color Palette**: The set of colors used in the fractal. Colors are tied to the structure of the image, creating more aesthetically pleasing results.
-2. **Non-Linear Functions (NLFs)**: These are mathematical objects which determine the character and details of the fractal. These are human-authored and lead to complex and unique effects. FractalFlame has 25+ NLFs to mix and match, leading to near-infinite possible variations.
+2. **Non-Linear Functions (NLFs)**: These are mathematical objects which determine the character and details of the fractal. These are human-authored and lead to complex and unique effects. FractalFlame has 25+ unique NLFs to mix and match, leading to near-infinite possible variations.
 3. **Matrices**: Similar to NLFs, these objects determine the overall shape of the fractal. There are infinite Matrices, and all of them can be used in FractalFlame. For more on the mathematical distinctions between NLFs and Matrices, see [here](non-linear-functions-vs-Matrices.md).
 4. **Weights**: Each NLF and Matrix has an associated Weight, which determines how much influence it has on the shape of the fractal. By adjusting Weights, a whole family of similar fractal flames can be explored. For more mathematical information on Weights, see [here](function-weighting.md).
 

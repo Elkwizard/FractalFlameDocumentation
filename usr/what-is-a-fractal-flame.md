@@ -10,11 +10,7 @@ Fractal flames, the images created by [FractalFlame](https://xentempest.github.i
 ## Iterated Function Systems in Theory
 For the purposes of this documentation, an IFS is a set *F* of functions from points to points (*F* ⊆ ℝ² → ℝ²). To create the visualalization, or flame, or the system, we take a set of points *P₀* ⊆ *ℝ²* uniformly distributed in [-1,&nbsp;1]². To iterate the system, we use the following update rule:
 
-<center>
-
-<i>Pₙ₊₁</i> = { <i>f</i> (<i>p</i>) : <i>p</i> ∈ <i>Pₙ</i>, <i>f</i> ∈ <i>F</i> }
-
-</center>
+*Pₙ₊₁* = { *f* (*p*) : *p* ∈ *Pₙ*, *f* ∈ *F* }
 
 Intuitively, each point in the set is replaced with the results of it being transformed by each of the functions in the IFS. After some satisfactory number of iterations *k*, the distribution of points can be observed. By mapping the [-1,&nbsp;1]² range to the screen, each pixel corresponds to some small square of the domain in which the points reside. By counting the number of points from *Pₖ* in each pixel and comparing to the overall maximum, a relative density can be computed for each pixel. That can then be converted to brightness, yielding a visualization of the distribution of *Pₖ*, which serves as a proxy for the IFS, *F*.
 
@@ -30,3 +26,10 @@ FractalFlame has some additional features beyond a basic IFS, most notably color
 
 > [!NOTE] There are additional details to the exact way FractalFlame creates its images, but these are beyond the scope of the mathematical premise.
 For more technical details, see the [architectural overview](../dev/system-architecture.md) and the [code on GitHub](https://github.com/XenTempest/FractalFlame/).
+
+### Note on Function Terminology
+Within the FractalFlame documentation and interface, the core of a fractal flame is referred to as a set of Matrices and NLFs. In reality, these are both simply kinds of functions which make up the internal IFS:
+
+* **Non-Linear Functions** are human-authored, possibly parametric, non-linear functions from ℝ² → ℝ². The sliders associated with these functions correspond to those underlying parameters. A simple example is the "Sine" function, defined internally as Sine(*x*,&nbsp;*y*)&nbsp;=&nbsp;(sin&nbsp;*x*,&nbsp;sin&nbsp;*y*)
+
+* **Matrices** are merely affine transformations, represented by 2x3 matrices using homogenous coordinates. These are generated with each entry having a uniformly random value on [0,&nbsp;1]. For a given matrix *A*, the corresponding function is *f*&nbsp;(*x*,&nbsp;*y*)&nbsp;=&nbsp;*A*&nbsp;[*x*&nbsp;*y*&nbsp;1]

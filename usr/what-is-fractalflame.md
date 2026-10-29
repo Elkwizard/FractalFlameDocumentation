@@ -2,7 +2,7 @@
 # What is FractalFlame?
 [FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html) is an online tool for creating and customizing a type of [algorithmic art](https://en.wikipedia.org/wiki/Algorithmic_art) called [fractal flames](what-is-a-fractal-flame.md). With over 100 million options and a simplified interface, FractalFlame can be used to produce an endless stream of beautifully detailed images for use as screensavers, backgrounds, and profile pictures. 
 
-![a fractal flame reminiscient of a tunnel](../img/hero.png)
+![a fractal flame reminiscent of a tunnel](../img/hero.png)
 
 Each fractal flame consists of four parts, which can each be customized/randomized separately:
 
@@ -41,22 +41,22 @@ In the remainder of this page, images show examples of the fractal flames that c
 > [!NOTE] Even with identical settings, multiple vastly different fractals can be achieved.
 
 ### 2 Matrices + "Julia" NLF
-![a fractal flame reminiscient of lichen](../img/flame1.png)
-![a fractal flame reminiscient of coral](../img/flame5.png)
+![a fractal flame reminiscent of lichen](../img/flame1.png)
+![a fractal flame reminiscent of coral](../img/flame5.png)
 
 ### 1 Matrix + "Swirl" NLF
-![a fractal flame reminiscient of a long-exposure photograph](../img/flame6.png)
-![a fractal flame reminiscient of a comet](../img/flame7.png)
+![a fractal flame reminiscent of a long-exposure photograph](../img/flame6.png)
+![a fractal flame reminiscent of a comet](../img/flame7.png)
 
 ### 3 Matrices + 0 NLFs
-![a fractal flame reminiscient of a snowflake](../img/flame8.png)
-![a fractal flame reminiscient of asteroids](../img/flame13.png)
-![a fractal flame reminiscient of a tornado](../img/flame14.png)
+![a fractal flame reminiscent of a snowflake](../img/flame8.png)
+![a fractal flame reminiscent of asteroids](../img/flame13.png)
+![a fractal flame reminiscent of a tornado](../img/flame14.png)
 
 ### 0 Matrices + "Waves" NLF
-![a fractal flame reminiscient of a double helix](../img/flame10.png)
+![a fractal flame reminiscent of a double helix](../img/flame10.png)
 
 ### 0 Matrices + "Waves" NLF + "Julia" NLF
-![a fractal flame reminiscient of an alien city](../img/flame11.png)
+![a fractal flame reminiscent of an alien city](../img/flame11.png)
 
 Want to see more of these? Try [FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html) yourself!

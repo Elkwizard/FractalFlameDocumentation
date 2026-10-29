@@ -20,7 +20,7 @@ One problem with executing the aforementioned procedure in practice is that the 
 ## Iterated Function Systems in FractalFlame {#weights-and-colors}
 FractalFlame has some additional features beyond a basic IFS, most notably colors and Weights. From a mathematical perspective, both of these constitute only small additions to the algorithm, though they massively improve the resulting visuals.
 
-**Weights** are real numbers associated with each function in *F*. By normalizing their sum to 1, they act as probabilities associated with each function. Since the stochastic method requires randomly choosing a function for each point, these probabilities bias those chances in favor of functions with higher weights.
+**Weights** are real numbers associated with each function in *F*. By normalizing their sum to 1, they act as probabilities. Since the stochastic method requires randomly choosing a function for each point, these probabilities bias those chances in favor of functions with higher Weights.
 
 **Colors** are 3D vectors (red, green, blue) on [0,&nbsp;1]³ associated with each function in *F*. In order to guarantee that the colors are both smooth and reflect the structure of the flame, the points in *Pₙ* become pairs of a point and a color. Whenever a point's position is updated by a given function, a small amount of the function's color is simultaneously blended into the point's color. Then, when the final image is being created, instead of counting the points in each pixel, their colors are summed (and normalized across the image) to directly produce the final color.
 

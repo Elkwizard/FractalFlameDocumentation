@@ -6,7 +6,7 @@ This page lays out the structure of [FractalFlame](https://xentempest.github.io/
 ## Overview
 FractalFlame is implemented as a minimalist [TypeScript](https://www.typescriptlang.org/) project to be run directly either locally as file or as a locally- or remotely-hosted website. For information on setting up a valid development environment, see [here](./setting-up-fractalflame-locally.md).
 
-### Files
+## Files
 
 FractalFlame's functionality is split into conceptually distinct files, which are globally included with HTML `<script>` tags. These files are as follows:
 

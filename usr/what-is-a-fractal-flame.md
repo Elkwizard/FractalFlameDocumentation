@@ -12,7 +12,7 @@ For the purposes of this documentation, an IFS is a set *F* of functions from po
 
 <center>
 
-*Pₙ₊₁* = { *f* (*p*) : *p* ∈ *Pₙ*, *f* ∈ *F* }
+<i>Pₙ₊₁</i> = { <i>f</i> (<i>p</i>) : <i>p</i> ∈ <i>Pₙ</i>, <i>f</i> ∈ <i>F</i> }
 
 </center>
 

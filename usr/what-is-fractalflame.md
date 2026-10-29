@@ -1,3 +1,5 @@
+![a fractal flame reminiscient of a tunnel](../img/hero.png)
+
 # What is FractalFlame?
 [FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html) is an online tool for creating and customizing a type of [algorithmic art](https://en.wikipedia.org/wiki/Algorithmic_art) called [fractal flames](what-is-a-fractal-flame.md). With over 100 million options and a simplified interface, FractalFlame can be used to produce an endless stream of beautifully detailed images for use as screensavers, backgrounds, and profile pictures. Each fractal flame consists of four parts, which can each be customized/randomized separately:
 

@@ -1,7 +1,7 @@
 # Non-Linear Functions vs. Matrices
 
 > [!NOTE] This page is intended for non-mathematical audiences.
-A more detailed explanation can be found [here](./what-is-a-fractal-flame.md#nlf-vs-mat), and an overview of FractalFlame (including these concepts) can be found [here](./what-is-fractalflame.md).
+> A more detailed explanation can be found [here](./what-is-a-fractal-flame.md#nlf-vs-mat), and an overview of FractalFlame (including these concepts) can be found [here](./what-is-fractalflame.md).
 
 In FractalFlame, there are two kinds of mathematical objects with the most largest impact on the shape of the fractal: Non-Linear Functions (NLFs) and Matrices. The details of their individual effects are near-impossible to categorize and are best learned through [experience](https://xentempest.github.io/FractalFlame/FractalFlame.html). However, there are some important differences to consider:
 

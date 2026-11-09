@@ -4,7 +4,7 @@
 
 ![a fractal flame reminiscent of a tunnel](../img/hero.png)
 
-Each fractal flame consists of four parts, which can each be customized/randomized separately:
+Each fractal flame consists of four parts, which can each be customized/randomized separately. To learn how to modify these parts in the UI, see the [interface overview](./interface-overview.md). The four parts are:
 
 1. **Color Palette**: The set of colors used in the fractal. Colors are tied to the structure of the image, creating more aesthetically pleasing results.
 2. **Non-Linear Functions (NLFs)**: These are mathematical objects which determine the character and details of the fractal. These are human-authored and lead to complex and unique effects. FractalFlame has 25+ unique NLFs to mix and match, leading to near-infinite possible variations.
@@ -24,10 +24,10 @@ FractalFlame is designed to have a very simple interface. As such, some customiz
 
 > [!NOTE] These features are not present, but may be added in a future release of FractalFlame.
 
-## Lifecycle of a Fractal Flame
+## Lifecycle of a Fractal Flame {#lifecycle}
 Even once the system knows which NLFs and Matrices to use, it takes considerable computational power to produce an image of the fractal. However, to avoid the boredom of the wait, FractalFlame shows you intermediate versions of the image as it is computed. This causes it to appears blocky or grainy at first when given new settings.
 
-As time passes, the system refines the image further and further in a process called convergence. There is no well-defined final state for a fractal flame, which has two important consequences:
+As time passes, the system refines the image further and further in a process called **convergence**. However, there is no well-defined final state for a fractal flame, which has two important consequences:
 1. It is merely a matter of personal choice when the image is "done," and it can be exported at any time.
 2. Any fractal flame can become sharper given more time (up to a theoretical limit of around 77 hours).
 
@@ -60,3 +60,8 @@ In the remainder of this page, images show examples of the fractal flames that c
 ![a fractal flame reminiscent of an alien city](../img/flames/flame11.png)
 
 Want to see more of these? Try [FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html) yourself!
+
+## See Also
+* [Interface Overview](./interface-overview.md)
+* [What is a FractalFlame?](./what-is-a-fractal-flame.md)
+* [FAQ](./faq.md)

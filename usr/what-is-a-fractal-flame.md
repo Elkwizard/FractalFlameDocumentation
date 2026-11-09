@@ -1,7 +1,7 @@
 # What is a Fractal Flame?
 
 > [!WARNING] This explanation may be too technical for readers without experience in linear algebra, probability theory, or general mathematics.
-For information on how these concepts can be used in the FractalFlame interface, see [here](./what-is-fractalflame.md).
+> For information on how these concepts can be used in the FractalFlame interface, see [here](./what-is-fractalflame.md).
 
 ## Overview
 
@@ -25,7 +25,7 @@ FractalFlame has some additional features beyond a basic IFS, most notably color
 **Colors** are 3D vectors (red, green, blue) on [0,&nbsp;1]³ associated with each function in *F*. In order to guarantee that the colors are both smooth and reflect the structure of the flame, the points in *Pₙ* become pairs of a point and a color. Whenever a point's position is updated by a given function, a small amount of the function's color is simultaneously blended into the point's color. Then, when the final image is being created, instead of counting the points in each pixel, their colors are summed (and normalized across the image) to directly produce the final color.
 
 > [!NOTE] There are additional details to the exact way FractalFlame creates its images, but these are beyond the scope of the mathematical premise.
-For more technical details, see the [architectural overview](../dev/system-architecture.md) and the [code on GitHub](https://github.com/XenTempest/FractalFlame/).
+> For more technical details, see the discussion of the implementation of [the histogram](../dev/what-is-the-histogram) and the [code on GitHub](https://github.com/XenTempest/FractalFlame/).
 
 ### Note on Function Terminology {#nlf-vs-mat}
 Within the FractalFlame documentation and interface, the core of a fractal flame is referred to as a set of Matrices and NLFs. In reality, these are both simply kinds of functions which make up the internal IFS:

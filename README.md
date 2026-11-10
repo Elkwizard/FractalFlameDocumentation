@@ -16,7 +16,7 @@ For the software being documented, see the [GitHub](https://github.com/XenTempes
 ### Task
 * [Selecting Weights](./usr/selecting-weights.md)
 * [Configuring NLFs](./usr/configuring-nlfs.md)
-* [Saving the Fractal](./usr/hiding-the-settings-panel.md)
+* [Saving the Fractal](./usr/saving-a-fractal.md)
 * [Interface Overview](./usr/interface-overview.md) (kind of also Reference)
 
 ## Dev Docs

@@ -19,7 +19,7 @@ FractalFlame's functionality is split into conceptually distinct files, which ar
 > [!WARNING] FractalFlame is currently undergoing major internal reworkings. This section is delayed due to its impending irrelevance and will be added as soon as the dust settles.
 
 ## See Also
-* [Setting up FractalFlame Locally](./setting-up-fractalflame.md)
+* [Setting up FractalFlame Locally](./setting-up-fractalflame-locally.md)
 * [Adding a Non-Linear Function](./adding-an-nlf.md)
 * [Modifying the Log-Density Display](./modifying-the-log-density-display.md)
 * [What is the Histogram?](./what-is-the-histogram.md)

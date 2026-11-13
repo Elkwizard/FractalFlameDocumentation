@@ -5,5 +5,5 @@ As mentioned in [What is FractalFlame?](./what-is-fractalflame.md#lifecycle), fr
 ![an image showing the right-click menu when clicking the fractal image itself](../img/ui/right-click.png)
 > [!NOTE] This menu may look slightly different depending on your operating system.
 2. Choose the appropriate option from the menu:
-	* If you want your fractal as a image, choose the **Save image as...** option.
+	* If you want your fractal as an image file, choose the **Save image as...** option.
 	* If you want your fractal in your clipboard, choose the **Copy image** option.

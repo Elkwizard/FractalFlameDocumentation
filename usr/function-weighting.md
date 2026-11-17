@@ -17,6 +17,6 @@ Though Weights cannot be directly accessed, there are indirect methods. [Fractal
 ## Example
 The image below shows the effect of different Weightings of the "Julia" NLF on a fractal with 2 Matrices. In left-to-right, top-to-bottom order, the fractals go from the NLF disabled to the NLF with a considerable Weight.
 
-> [!WARNING] Different NLFs may react differently to Weightings, and individual Matrix Weights often only change the brightness of different parts of the fractal. This example should not be taken as representative of all Weighting effects.
+> [!NOTE] Different NLFs may react differently to Weightings, and individual Matrix Weights often only change the brightness of different parts of the fractal. This example should not be taken as representative of all Weighting effects.
 
 ![a comparison of the effects of different NLF Weights for "Julia"](../img/weights.png)

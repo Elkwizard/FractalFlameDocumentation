@@ -4,7 +4,7 @@
 > This page lays out the structure of [FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html)'s TypeScript implementation, but assumes familiarity with the software's purpose and algorithm. For information on the mathematical underpinnings, see [What is a Fractal Flame?](../usr/what-is-a-fractal-flame.md), and for new users, see [What is FractalFlame?](../usr/what-is-fractalflame.md).
 
 ## Overview
-FractalFlame is implemented as a minimalist [TypeScript](https://www.typescriptlang.org/) project to be run directly either locally as file or as a locally- or remotely-hosted website. For information on setting up a valid development environment, see [Setting Up FractalFlame Locally](./setting-up-fractalflame-locally.md).
+FractalFlame is implemented as a minimalist [TypeScript](https://www.typescriptlang.org/) project, designed to be run either locally as an HTML file or as a locally- or remotely-hosted website. For information on setting up a valid development environment, see [Setting Up FractalFlame Locally](./setting-up-fractalflame-locally.md).
 
 ## Files
 

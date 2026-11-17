@@ -4,28 +4,31 @@
 
 ![a fractal flame reminiscent of a tunnel](../img/hero.png)
 
-Each fractal flame consists of four parts, which can each be customized/randomized separately. To learn how to modify these parts in the UI, see the [interface overview](./interface-overview.md). The four parts are:
+Each fractal flame consists of four parts, which can each be customized separately using randomization. To learn how to modify these parts in the UI, see the [interface overview](./interface-overview.md). The four parts are:
 
 * **Color Palette**: The set of colors used in the fractal. Colors are tied to the structure of the image, creating more aesthetically pleasing results.
-* **Non-Linear Functions (NLFs)**: These are mathematical objects which determine the character and details of the fractal. These are human-authored and lead to complex and unique effects. FractalFlame has 25+ unique NLFs to mix and match, leading to near-infinite possible variations.
+* **Non-Linear Functions (NLFs)**: These are mathematical objects which determine the character and details of the fractal. Each function is human-authored and lead to complex and unique effects. FractalFlame has 25+ unique NLFs to mix and match, leading to near-infinite possible variations.
 * **Matrices**: Similar to NLFs, these objects determine the overall shape of the fractal. There are infinite Matrices, and all of them can be used in FractalFlame. For more on the distinctions between NLFs and Matrices, see [NLFs vs. Matrices](non-linear-functions-vs-Matrices.md).
 * **Weights**: Each NLF and Matrix has an associated Weight, which determines how much influence it has on the shape of the fractal. By adjusting Weights, a whole family of similar fractal flames can be explored. For more information on Weights, see [Function Weighting](function-weighting.md).
 
 ## What You Can Do With FractalFlame
+Using FractalFlame is a **fundamentally exploratory experience**. Most of the settings have effects which are near-impossible to describe, and a given configuration can lead to an infinite range of different images. Since the primary mode of interaction is through randomization, it is important to have a mindset of sifting through a vast set of options, hoping to find something appealing, rather than trying to create a specific image.
+
+That said, if you understand the [mathematical basis](./what-is-a-fractal-flame.md) of the application, some rudimentary goals can be achieved on purpose. To that end, when using FractalFlame, you can directly:
 * Choose any number of named NLFs and tune them to a desired outcome. Note that many NLFs have associated configurable sliders which change their effect on the fractal.
-* Choose a number of Matrices to be randomly generated for use in the fractal. These will be regenerated as needed, but won't change if not explicitly modified.
+* Choose a number of Matrices to be randomly generated for use in the fractal. The specific Matrix values will be regenerated as needed, but won't change if not explicitly modified.
 * Randomize the Weights, color palettes, and specific Matrices of the fractal, as a method of exploring the infinite possibility space.
 
 ## What You Can't Do With FractalFlame
 FractalFlame is designed to have a very simple interface. As such, some customizations are out of scope for the project, so one cannot:
-* Choose the specific Matrices used. Only the amount can be set and the Matrices can be randomized.
+* Choose the specific Matrices used. Only the *quantity* of Matrices can be set (the individual values are randomized).
 * Choose the specific Weights used. Though every Matrix and NLF has a Weight, the only way to change them is through complete randomization or a general Weight for all Matrices.
 * Choose the specific color palette used. The same restrictions on Weight customization apply here.
 
 > [!NOTE] These features are not present, but may be added in a future release of FractalFlame.
 
 ## Lifecycle of a Fractal Flame {#lifecycle}
-Even once the system knows which NLFs and Matrices to use, it takes considerable computational power to produce an image of the fractal. However, to avoid the boredom of the wait, FractalFlame shows you intermediate versions of the image as it is computed. This causes it to appears blocky or grainy at first when given new settings.
+Even once the system knows which NLFs and Matrices to use, it takes considerable computational power to produce an image of the fractal. However, to avoid the boredom of the wait, FractalFlame shows you intermediate versions of the image as it is computed. This causes it to appear blocky or grainy at first when given new settings.
 
 As time passes, the system refines the image further and further in a process called **convergence**. However, there is no well-defined final state for a fractal flame, which has two important consequences:
 * It is merely a matter of personal choice when the image is "done," and it can be exported at any time.

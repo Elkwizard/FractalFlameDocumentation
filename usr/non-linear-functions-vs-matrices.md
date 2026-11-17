@@ -6,7 +6,7 @@
 In FractalFlame, there are two kinds of mathematical objects with the most largest impact on the shape of the fractal: Non-Linear Functions (NLFs) and Matrices. The details of their individual effects are near-impossible to categorize and are best learned through [experience](https://xentempest.github.io/FractalFlame/FractalFlame.html). However, there are some important differences to consider:
 
 ### Matrices
-Matrices are randomly generated objects and cannot be chosen specifically. It can take more randomization than one may expect to achieve desirable results.
+Matrices are randomly generated objects and cannot be chosen specifically. Keep in mind that it can take more tries at randomization than you may expect to achieve desirable results.
 
 > [!INFO] Matrices have the largest effect on the fractal, but very different effects from each other. When you find an appealing pairing of Matrices and NLFs, keep exploring! Chances are there are other wildly different options waiting for you.
 

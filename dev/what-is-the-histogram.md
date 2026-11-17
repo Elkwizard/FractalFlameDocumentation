@@ -9,7 +9,7 @@ The histogram is the core of [FractalFlame](https://xentempest.github.io/Fractal
 On each update cycle of the IFS, after a point is updated, its color is directly added component-wise to the histogram element associated with its position. Since all point colors have the same value in their alpha channel (`.a`), the final accumulated alpha acts as a (possibly scaled) count of how many points have ever reached a given position, while the other channels represent the actual color data.
 
 ## Histogram Usage
-As frames occur, the histogram is gradually converted (non-destructively) into an image through a process called **Log-Density Display**. The outline of this process is described in the [original fractal flame paper by Scott Draves](https://flam3.com/flame_draves.pdf). Briefly, it consists of two main steps:
+As iterations of the underlying IFS are computed, the resulting histogram is gradually converted (non-destructively) into an image through a process called **Log-Density Display**. The outline of this process is described in the [original fractal flame paper by Scott Draves](https://flam3.com/flame_draves.pdf). Briefly, it consists of two main steps:
 
 1. A normalized histogram *N* is created by dividing every color in the histogram by the global maximum alpha channel value anywhere in the histogram.
 2. An image *C* is created by taking a (scaled, adjusted) logarithm of the normalized values in *N*. The logarithm preserves finer details that a linear scale would miss.

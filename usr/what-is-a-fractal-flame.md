@@ -1,7 +1,7 @@
 # What is a Fractal Flame?
 
-> [!WARNING] This explanation may be too technical for readers without experience in linear algebra, probability theory, or general mathematics.
-> For information on how these concepts can be used in the FractalFlame interface, see [here](./what-is-fractalflame.md).
+> [!NOTE] This explanation may be too technical for readers without experience in linear algebra, probability theory, or general mathematics.
+> For information on how these concepts can be used in the FractalFlame interface, see [What is FractalFlame?](./what-is-fractalflame.md).
 
 ## Overview
 
@@ -22,7 +22,7 @@ FractalFlame has some additional features beyond a basic IFS, most notably color
 
 **Weights** are real numbers associated with each function in *F*. By normalizing their sum to 1, they act as probabilities. Since the stochastic method requires randomly choosing a function for each point, these probabilities bias those chances in favor of functions with higher Weights.
 
-**Colors** are 3D vectors (red, green, blue) on [0,&nbsp;1]³ associated with each function in *F*. In order to guarantee that the colors are both smooth and reflect the structure of the flame, the points in *Pₙ* become pairs of a point and a color. Whenever a point's position is updated by a given function, a small amount of the function's color is simultaneously blended into the point's color. Then, when the final image is being created, instead of counting the points in each pixel, their colors are summed (and normalized across the image) to directly produce the final color.
+**Colors** are 3D vectors (red, green, blue) on [0,&nbsp;1]³ associated with each function in *F*. To guarantee that the colors are both smooth and reflect the structure of the flame, the points in *Pₙ* become pairs of a point and a color. Whenever a point's position is updated by a given function, a small amount of the function's color is simultaneously blended into the point's color. Then, when the final image is being created, instead of counting the points in each pixel, their colors are summed (and normalized across the image) to directly produce the final color.
 
 > [!NOTE] There are additional details to the exact way FractalFlame creates its images, but these are beyond the scope of the mathematical premise.
 > For more technical details, see the discussion of the implementation of [the histogram](../dev/what-is-the-histogram) and the [code on GitHub](https://github.com/XenTempest/FractalFlame/).

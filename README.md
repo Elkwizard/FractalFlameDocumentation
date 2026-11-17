@@ -9,7 +9,7 @@ For the software being documented, see the [GitHub](https://github.com/XenTempes
 
 ### Conceptual
 * [What is FractalFlame?](./usr/what-is-fractalflame.md)
-* [What is a fractal flame?](./usr/what-is-a-fractal-flame.md)
+* [What is a Fractal Flame?](./usr/what-is-a-fractal-flame.md)
 * [Non-Linear Functions vs. Matrices](./usr/non-linear-functions-vs-matrices.md)
 * [Function Weighting](./usr/function-weighting.md)
 

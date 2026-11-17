@@ -1,6 +1,6 @@
 # Selecting Weights
 > [!NOTE] This page assumes familiarity with the role of Weights in FractalFlame.
-> For an introduction to Weights, see [here](./what-is-fractalflame.md), or [here for more detail](./function-weighting.md).
+> For an introduction to Weights, see [What is FractalFlame?](./what-is-fractalflame.md), or [Function Weighting](./function-weighting.md) for more detail.
 
 Even with identical Matrices and NLFs, different Weights can produce wildly fractal flames. For example, the four fractals below differ only in Weighting (and slightly in palettes):
 ![a comparison of the effects of different NLF Weights for "Julia"](../img/weights.png)

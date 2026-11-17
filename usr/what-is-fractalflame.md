@@ -6,10 +6,10 @@
 
 Each fractal flame consists of four parts, which can each be customized/randomized separately. To learn how to modify these parts in the UI, see the [interface overview](./interface-overview.md). The four parts are:
 
-1. **Color Palette**: The set of colors used in the fractal. Colors are tied to the structure of the image, creating more aesthetically pleasing results.
-2. **Non-Linear Functions (NLFs)**: These are mathematical objects which determine the character and details of the fractal. These are human-authored and lead to complex and unique effects. FractalFlame has 25+ unique NLFs to mix and match, leading to near-infinite possible variations.
-3. **Matrices**: Similar to NLFs, these objects determine the overall shape of the fractal. There are infinite Matrices, and all of them can be used in FractalFlame. For more on the distinctions between NLFs and Matrices, see [here](non-linear-functions-vs-Matrices.md).
-4. **Weights**: Each NLF and Matrix has an associated Weight, which determines how much influence it has on the shape of the fractal. By adjusting Weights, a whole family of similar fractal flames can be explored. For more information on Weights, see [here](function-weighting.md).
+* **Color Palette**: The set of colors used in the fractal. Colors are tied to the structure of the image, creating more aesthetically pleasing results.
+* **Non-Linear Functions (NLFs)**: These are mathematical objects which determine the character and details of the fractal. These are human-authored and lead to complex and unique effects. FractalFlame has 25+ unique NLFs to mix and match, leading to near-infinite possible variations.
+* **Matrices**: Similar to NLFs, these objects determine the overall shape of the fractal. There are infinite Matrices, and all of them can be used in FractalFlame. For more on the distinctions between NLFs and Matrices, see [NLFs vs. Matrices](non-linear-functions-vs-Matrices.md).
+* **Weights**: Each NLF and Matrix has an associated Weight, which determines how much influence it has on the shape of the fractal. By adjusting Weights, a whole family of similar fractal flames can be explored. For more information on Weights, see [Function Weighting](function-weighting.md).
 
 ## What You Can Do With FractalFlame
 * Choose any number of named NLFs and tune them to a desired outcome. Note that many NLFs have associated configurable sliders which change their effect on the fractal.
@@ -28,8 +28,8 @@ FractalFlame is designed to have a very simple interface. As such, some customiz
 Even once the system knows which NLFs and Matrices to use, it takes considerable computational power to produce an image of the fractal. However, to avoid the boredom of the wait, FractalFlame shows you intermediate versions of the image as it is computed. This causes it to appears blocky or grainy at first when given new settings.
 
 As time passes, the system refines the image further and further in a process called **convergence**. However, there is no well-defined final state for a fractal flame, which has two important consequences:
-1. It is merely a matter of personal choice when the image is "done," and it can be exported at any time.
-2. Any fractal flame can become sharper given more time (up to a theoretical limit of around 77 hours).
+* It is merely a matter of personal choice when the image is "done," and it can be exported at any time.
+* Any fractal flame can become sharper given more time (up to a theoretical limit of around 77 hours).
 
 > [!NOTE] If a fractal looks too fuzzy or indistinct, try giving it 10 or 20 more seconds. You may be surprised at the beauty underneath.
 

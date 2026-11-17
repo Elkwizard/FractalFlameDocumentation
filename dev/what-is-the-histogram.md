@@ -14,4 +14,4 @@ As frames occur, the histogram is gradually converted (non-destructively) into a
 1. A normalized histogram *N* is created by dividing every color in the histogram by the global maximum alpha channel value anywhere in the histogram.
 2. An image *C* is created by taking a (scaled, adjusted) logarithm of the normalized values in *N*. The logarithm preserves finer details that a linear scale would miss.
 
-The resulting image *C* is then displayed directly to the screen. For instructions on modifying this process, see [here](./modifying-the-log-density-display.md).
+The resulting image *C* is then displayed directly to the screen. For instructions on modifying this process, see [Modifying the Log-Density Display](./modifying-the-log-density-display.md).

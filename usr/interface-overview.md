@@ -18,7 +18,7 @@ These first settings provide large-scale randomization of all major parts of the
 
 **(A) Randomize Palette**: Randomizes the colors associated with each part of the fractal flame.
 
-**(B) Randomize Weights**: Randomizes the Weight (influence) given to all Matrices and NLFs. For more on Weight selection, see [here](./selecting-weights.md).
+**(B) Randomize Weights**: Randomizes the Weight (influence) given to all Matrices and NLFs. For more on Weight selection, see [Selecting Weights](./selecting-weights.md).
 
 **(C) Randomize Matrices**: Switches to using *N* new random Matrices, where *N* is the number set in **(I) Random Matrices**.
 
@@ -38,12 +38,12 @@ The following settings allow you to control the behavior of other settings or UI
 
 **(I) Random Matrices**: Sets the number *N* of Matrices to use in the fractal flame, though not which specific ones should be used. To generate *N* new random Matrices, use **(C) Randomize Matrices**.
 
-**(J) Matrix Weight**: Sets an overall Weight for Matrices, as opposed to NLFs. For more on Weighting, see [here](./selecting-weights.md).
+**(J) Matrix Weight**: Sets an overall Weight for Matrices, as opposed to NLFs. For more on Weighting, see [Selecting Weights](./selecting-weights.md).
 
 **(K) Pixel Reset Frequency**: This slider is rarely used and difficult to understand. Roughly, moving it to the right will add more fine detail to the fractal, at the cost of a longer [convergence time](./what-is-fractalflame.md#lifecycle).
 
 ## Non-Linear Functions
-The following settings all relate to selecting and configuring NLFs. For a deeper explanation of how to use these controls, see [here](./configuring-nlfs.md).
+The following settings all relate to selecting and configuring NLFs. For a deeper explanation of how to use these controls, see [Configuring NLFs](./configuring-nlfs.md).
 
 **(L) Non-Linear Functions**: Marks the end of the rest of the UI. The only UI after this point is a list of the over two dozen available NLFs.
 

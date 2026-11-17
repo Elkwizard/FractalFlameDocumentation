@@ -1,7 +1,7 @@
 # Configuring Non-Linear Functions
 
 > [!NOTE] This page assumes familiarity with the role of Non-Linear Functions (NLFs) in a fractal flame.
-> For an introduction to NLFs, see [here](./what-is-fractalflame.md).
+> For an introduction to NLFs, see [What is FractalFlame?](./what-is-fractalflame.md).
 
 NLFs make up the heart of the fractals built with [FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html). This page includes a detailed instructions on using the interface to configure NLFs; for a quick reference see the [interface overview](./interface-overview.md).
 

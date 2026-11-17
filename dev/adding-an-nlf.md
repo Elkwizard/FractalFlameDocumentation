@@ -1,7 +1,7 @@
 # Adding a Non-Linear Function
 
 > [!NOTE] This process requires familiarity with the mathematical basis of NLFs and a local development setup of FractalFlame.
-> For an explanation of these concepts, see [here for NLFs](../usr/what-is-a-fractal-flame.md#nlf-vs-mat) and [here for the local setup](./setting-up-fractalflame-locally.md).
+> For an explanation of these concepts, see [NLFs vs. Matrices](../usr/what-is-a-fractal-flame.md#nlf-vs-mat) and [Setting Up FractalFlame Locally](./setting-up-fractalflame-locally.md).
 
 To add a new NLF, you will need to have its mathematical representation nearby. This will be a vector function from ℝ²&nbsp;→&nbsp;ℝ², which we will here call *f*&nbsp;(*p*). Additionally, it may have some number of configurable parameters. To add *f*&nbsp;(*p*) to [FractalFlame](https://xentempest.github.io/FractalFlame/FractalFlame.html):
 
